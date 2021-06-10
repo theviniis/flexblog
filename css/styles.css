@@ -155,7 +155,7 @@ img {
 }
 /* preco */
 .preco {
-  background: #f7f7f7;
+  background: #ececec;
   padding: 60px 140px;
   display: flex;
   flex-wrap: wrap;
@@ -167,7 +167,7 @@ img {
   border: 4px solid white;
   padding: 20px;
   margin: 10px;
-  max-width: 35 0px;
+  max-width: 350px;
 }
 .preco-item h2 {
   font-size: 3em;
@@ -366,5 +366,6 @@ img {
   }
   .preco {
     flex-wrap: nowrap;
+    padding: 60px 10px;
   }
 }
