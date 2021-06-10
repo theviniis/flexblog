@@ -167,7 +167,7 @@ img {
   border: 4px solid white;
   padding: 20px;
   margin: 10px;
-  max-width: 400px;
+  max-width: 35 0px;
 }
 .preco-item h2 {
   font-size: 3em;
@@ -356,11 +356,15 @@ img {
     margin: 0 auto;
   }
 }
-@media (max-width: 696px) and (min-width: 516px) {
+
+@media (min-width: 515px) and (max-width: 1136px) {
+  .sobre {
+    flex-wrap: nowrap;
+  }
   .produtos-container {
     flex-wrap: nowrap;
   }
-  .sobre {
+  .preco {
     flex-wrap: nowrap;
   }
 }
